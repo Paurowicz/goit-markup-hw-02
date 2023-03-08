@@ -681,6 +681,6 @@ body {
   color: #000000;
 }
 
-a:hover {
+.Link-fix:hover {
   color: #2196f3;
 }
