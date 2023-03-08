@@ -14,7 +14,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
+  text-decoration: none;
   letter-spacing: 0.03em;
 }
 
@@ -32,24 +32,7 @@ body {
   height: 16px;
   left: 453px;
   top: 32px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-
-.Portfolio {
-  position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -60,13 +43,34 @@ body {
   color: #212121;
 }
 
+.Portfolio {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.link-fix:hover {
+  color: #2196f3;
+}
+
 .Kontakt {
   position: absolute;
   width: 51px;
   height: 16px;
   left: 674px;
   top: 32px;
-
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -83,7 +87,7 @@ body {
   height: 16px;
   left: 1078px;
   top: 32px;
-
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -100,7 +104,7 @@ body {
   height: 16px;
   left: 1263px;
   top: 32px;
-
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -598,6 +602,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .address {
@@ -630,6 +635,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .tel-f {
@@ -638,7 +644,7 @@ body {
   height: 21px;
   left: 215px;
   top: 171px;
-
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -664,4 +670,17 @@ body {
   top: 1628px;
 
   background: #2f303a;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.Link-fix {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #2196f3;
 }
