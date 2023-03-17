@@ -89,6 +89,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .webstudio-footer {
@@ -137,6 +138,7 @@ body {
 
 .button {
   background: #f5f4fa;
+  cursor: pointer;
 }
 
 .button:hover {
