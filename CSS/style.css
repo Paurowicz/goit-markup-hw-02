@@ -152,13 +152,9 @@ body {
 
 .buttons-portfolio {
   list-style-type: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 
-.button-p {
+.button1 {
   background-color: #f5f4fa;
   color: #212121;
   border: 1px solid #212121;
@@ -171,7 +167,102 @@ body {
   cursor: pointer;
 }
 
-.button-p:hover {
+.button2 {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  width: 93px;
+  height: 38px;
+}
+
+.button3 {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  width: 114px;
+  height: 38px;
+}
+
+.button4 {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  width: 91px;
+  height: 38px;
+}
+
+.button5 {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  width: 121px;
+  height: 38px;
+}
+
+.buttons-text-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.buttons-text-portfolio:hover {
+  color: #ffffff;
+}
+
+.button1:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button2:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button3:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button4:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 1px solid #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button5:hover {
   background-color: #2196f3;
   color: #ffffff;
   border: 1px solid #2196f3;
